@@ -1,0 +1,534 @@
+
+/* Estilo Geral */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  .poppins-thin {
+      font-family: "Poppins", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+    }
+    
+    .poppins-extralight {
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+    }
+    
+    .poppins-light {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+    }
+    
+    .poppins-regular {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .poppins-medium {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+    
+    .poppins-semibold {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    }
+    
+    .poppins-bold {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    
+    .poppins-extrabold {
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      font-style: normal;
+    }
+    
+    .poppins-black {
+      font-family: "Poppins", sans-serif;
+      font-weight: 900;
+      font-style: normal;
+    }
+    
+    .poppins-thin-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 100;
+      font-style: italic;
+    }
+    
+    .poppins-extralight-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+      font-style: italic;
+    }
+    
+    .poppins-light-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: italic;
+    }
+    
+    .poppins-regular-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+    
+    .poppins-medium-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: italic;
+    }
+    
+    .poppins-semibold-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: italic;
+    }
+    
+    .poppins-bold-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: italic;
+    }
+    
+    .poppins-extrabold-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      font-style: italic;
+    }
+    
+    .poppins-black-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 900;
+      font-style: italic;
+    }
+    
+}
+
+
+       
+
+
+
+body{
+  background-color: black;
+  height: 100vh;
+}
+
+
+.interface{
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.btn-contato button{
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #0f59e3;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+h2.titulo{
+  color: #fff;
+  font-size: 38px;
+  text-align: center;
+}
+
+h2.titulo span{
+  color: #a6a6a5;
+}
+
+ button:hover{
+  box-shadow: 0px 0px 8px #ffffff95;
+  transform: scale(1.05);
+}
+/* Estilo do cabeçalho */
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header a{
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;}
+
+
+
+/* Estilo do topo do site */
+section.topo-do-site{
+  padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.topo-do-site h1{
+  color: #fff;
+  font-size: 42px;
+  line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+  color: #a6a6a5;
+
+}
+
+.topo-do-site .txt-topo-site p{
+  color: #e2dada;
+  margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img{
+  position: relative;
+  animation: flutuar 2s ease-in-out infinite alternate ;
+}
+  
+@keyframes flutuar{
+  0%{
+    top: 0;
+  }
+  100%{
+    top: 30px;
+  }
+}
+
+/* Estilo categoria Educação */
+section.Educação{
+  padding: 40px 4%;
+}
+
+section.Educação .flex{
+  gap: 60px;
+}
+
+.Educação .Educação-box{
+  color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+   margin-top: 45px;
+   transition: .2s;
+}
+
+.Educação .Educação-box:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 12px #ffffff70;
+
+}
+
+ .Educação .Educação-box svg {
+   color: #0f58e3; 
+   font-size: 30px;
+   }
+
+   .Educação .Educação-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+  }
+
+  /* Estilo Sobre */
+  section.Sobre{
+    padding: 80px 4%;
+  }
+
+  section.Sobre .flex{
+    align-items: center;
+    gap: 60px;
+  }
+  .Sobre .txt-Sobre{
+    color: #fff;
+  }
+
+  .Sobre .txt-Sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+  }
+
+  .Sobre .txt-Sobre h2 span{
+    color: #998004b5;
+    display: block;
+  }
+
+  .Sobre .txt-Sobre p{
+    margin: 10px 0;
+  }
+
+  .btn-social button{
+    
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #1a1e30;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: 0.2s;
+  }
+
+ .Sobre svg{
+      color: #fff;
+      
+       }
+
+
+
+  /* Estilo Projetos */
+  section.Projetos{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff3a ;
+    border-radius: 30px;
+  }
+
+  section.Projetos .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+
+  }
+
+.img-port{
+  width: 360px;
+  height: 460px;
+  background-color: #878687;
+  background-size: cover;
+  background-position: 100% 0%;
+  transition: 8s;
+  cursor: pointer;
+  border-radius: 40px;
+  position: relative;
+}
+
+.img-port:hover{
+  background-position: 100% 100%;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000d8;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  opacity: 0;
+  transition: .5s;
+}
+
+.overlay:hover{
+  opacity: 1;
+}
+
+/* Estilo do Rodapé */
+footer{
+  padding: 85px 4%;
+  }
+
+
+
+footer.flex{
+  justify-content: space-between;
+ }
+  
+footer .line-footer{
+  padding: 20px 0;
+}
+
+.borda{
+  border-top:2px solid #a6a6a5;
+}
+
+footer .line-footer p i{
+  color: #ffffff;
+  font-size: 22px;
+}
+
+footer .line-footer p a{
+  color: #fff;
+  float: right;
+}
+
+footer svg a{
+  color: #1a1e30;
+}
+
+@media screen and (max-width:1020px){
+  /* Classes Gerais */
+.flex{
+  flex-direction:column;
+}
+
+.topo-do-site .flex{
+  flex-direction: column-reverse;
+}
+
+h2.titulo{
+  font-size: 34px;
+  line-height: 30px;
+  
+}
+  
+/* Cabeçalho */
+  .menu-desktop{
+    display: none;
+}
+ /* Topo do site */
+  
+section.topo-do-site .flex{
+  gap:40px;
+}
+
+section.topo-do-site{
+   padding:20px 8%;
+}
+  
+.topo-do-site h1{
+  font-size: 30px;
+}
+
+.btn-contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #0f59e3;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .2s;
+  color: #000000; 
+}
+
+
+
+.topo-do-site .img-topo-site img{
+  width: 100%;
+}
+/* Educação */
+section.Educação{
+  padding: 40px 8%;
+}
+/* Sobre */
+section.Sobre h2 {
+  font-size: 34px;
+  line-height: 35px;
+  
+}
+
+.btn-social{
+  text-align: center;
+}
+
+.img-sobre img{
+  width: 100%;
+}
+
+/* Sobre */
+section.Sobre h2 {
+  font-size: 34px;
+  line-height: 35px;}
+
+/* Projetos */
+section.Projetos {
+  padding: 80px 8%;
+}
+
+.img-port {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  }
+
+  section.Projetos .flex {
+    gap: 60px;
+  }
+
+ 
+  .Educação p{
+    page-break-before: always;
+    page-break-after: always;
+
+
+  }
+
+  .meio {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+}
+.meio {
+  display: inline-block;
+  text-align: center;
+  width: 100% ;
+  color:#998004b5 ;
+  font-size: large;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
